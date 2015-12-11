@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+     <widget xmlns   = "http://www.w3.org/ns/widgets" 
+         xmlns:gap   = "http://phonegap.com/ns/1.0" 
+         id          = "bby261.burcukaramanlioglu.adamas" 
+         versionCode = "10"  
+         version     = "1.0.0" > 
+ 
+ 
+     <!-- Standart Uygulama Verileri --> 
+ 
+ 
+     <name>Adam Asamamaca</name> 
+ 
+ 
+     <description> 
+        Adam Asmaca 
+     </description> 
+ 
+ 
+     <author> 
+        Burcu Karamanlıoğlu
+     </author> 
+          
+     <!-- Derleme Platformu --> 
+          
+     <gap:platform name="android" /> 
+          
+     <!-- Ek Özellikler --> 
+ 
+ 
+     <!-- <preference name="orientation" value="landscape" /> --> 
+     <preference name="fullscreen" value="false" /> 
+          
+     <!-- Açılış Ekranı ve İkon --> 
+       
+     <icon src="icon.jpg" /> 
+     <gap:splash src="splash.png" /> 
+     <preference name="splash-screen-duration" value="2000"/> 
+          
+     <!-- Uygulama Hakları --> 
+      
+     <preference name="permissions" value="none"/> 
+          
+ </widget> 
