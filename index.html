@@ -16,15 +16,17 @@
          <center> 
          <h1 style="color: darkblue">Adam Asmaca</h1> 
          
-              <img src="adamasmaca.fw.png"/> 
+        <img id='adam' src="adamasmaca1.fw.png"></img>
          <script>document.getElementById("secilenKelimeGoster").innerHTML = secilenKelime</script> 
          <p id="harfTutucuGoster"></p> 
          <script>document.getElementById("harfTutucuGoster").innerHTML = harfTutucu.join('&nbsp');</script> 
-         <p> 
+         <p>
+             <div id="klavye">
              <form id="frm1"> 
                  <input type="text" name="girilenHarf" maxlength="1" autofocus/> 
              </form> 
-             <button onclick="myFunction()">Harfi Sorgula</button> 
+             <button onclick="myFunction()">Harfi Sorgula</button>
+    </div>
              <script> 
                  function myFunction() { 
                  var x = document.getElementById("frm1"); 
