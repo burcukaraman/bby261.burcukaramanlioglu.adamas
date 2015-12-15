@@ -31,7 +31,7 @@ hataSayisi += 1
 console.log(hataSayisi)
 if (hataSayisi == 3){
 console.log("Vurun kellesini")
-document.getElementById('klavye').innerHTML="Klavye yerine bu yazı geldi"
+document.getElementById('klavye').innerHTML="Kaybettin, ASILDIN ! :("
 }
 adamAs()
 }
